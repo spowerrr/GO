@@ -1,5 +1,3 @@
-# Poprocket
-
 ## 🚀 Learning Go for Backend Development
 
 Welcome to **Poprocket**, my personal learning project where I explore the Go programming language for backend development. This repository contains my daily progress, code snippets, and experiments as I dive into Go.
