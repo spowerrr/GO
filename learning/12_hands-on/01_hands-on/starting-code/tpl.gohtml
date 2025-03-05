@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    {{range .}}
+    <h1>{{.AcaYear}}</h1>
+    <h1>{{.Fall.Term}}</h1>
+    {{range .Fall.Courses}}
+    <h3>{{.Number}} --> {{.Name}} --> {{.Units}}</h3>
+    {{end}}
+    {{end}}
+
+
+    <!-- PUT YOUR CODE HERE TO SHOW THE DATA-->
+    <!------------------------------------------>
+
+{{range .}}
+    <h1>{{.AcaYear}}</h1>
+    <h1>{{.Spring.Term}}</h1>
+    {{range .Spring.Courses}}
+    <h3>{{.Number}} --> {{.Name}} --> {{.Units}}</h3>
+    {{end}}
+    {{end}}
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>functions</title>
+</head>
+<body>
+
+<h1>Wisdom</h1>
+<ul>
+    {{range .Wisdom}}
+        <li>{{uc .Name}} - "{{.Motto}}"</li>
+    {{end}}
+</ul>
+
+<h1>Transport</h1>
+<ul>
+    {{range .Transport}}
+        <li>{{ft .Manufacturer}} {{.Model}} ({{.Doors}} doors)</li>
+    {{end}}
+</ul>
+
+</body>
+</html>

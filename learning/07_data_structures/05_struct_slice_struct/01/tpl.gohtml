@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Peeps</title>
+</head>
+<body>
+<ul>
+    {{range .Wisdom}}
+    <li>N:{{.Name}} - M:{{.Motto}}</li>
+    {{end}}
+    {{range .Transport}}
+    <li>Manufacturer:{{.Manufacturer}} - Model:{{.Model}}- Doors:{{.Doors}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
