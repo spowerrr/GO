@@ -73,7 +73,6 @@ func main() {
 
 	// functions
 	greeting()
-
 	result := add(5, 6)
 	fmt.Println(result)
 }
